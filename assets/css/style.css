@@ -1,0 +1,133 @@
+:root {
+    --color-bg-main: #F5F5F5;
+    --color-bg-dark: #1A1A1A;
+    --color-primary: #0D47A1;
+    --color-purchase: #D32F2F;
+    --color-rental: #0D47A1;
+    --color-gold: #C9A227;
+    --color-text-main: #1A1A1A;
+    --color-text-inverted: #F5F5F5;
+    --color-alert: #FD7E14;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--color-bg-main);
+    color: var(--color-text-main);
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 40px;
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-inverted);
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-text-inverted);
+}
+
+.logo {
+    height: 56px;
+    margin-right: 12px;
+}
+
+.brand-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.main-nav {
+    display: flex;
+    gap: 24px;
+}
+
+.main-nav a {
+    color: var(--color-text-inverted);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    color: var(--color-gold);
+}
+
+.hero {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--color-primary);
+    color: var(--color-text-inverted);
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-gold);
+    color: var(--color-bg-dark);
+}
+
+.badge-achat {
+    background-color: var(--color-purchase);
+    color: var(--color-text-inverted);
+}
+
+.badge-location {
+    background-color: var(--color-rental);
+    color: var(--color-text-inverted);
+}
+
+.site-footer {
+    padding: 24px 40px;
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-inverted);
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .hero {
+        padding: 48px 24px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+}

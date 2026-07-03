@@ -1,0 +1,11 @@
+# Fichiers système macOS
+.DS_Store
+
+# Fichiers temporaires
+*.log
+*.tmp
+
+# Dossiers générés éventuels
+node_modules/
+dist/
+build/
