@@ -72,7 +72,44 @@
                 migrés à leur espace personnel.
             </p>
         </section>
-    </main>
+    
+<!-- US01-REGISTER-START -->
+<section id="inscription" class="section register-section">
+    <div class="section-header">
+        <h2>Créer un compte client</h2>
+        <p>Créez votre espace client pour déposer un dossier d'achat ou de location longue durée.</p>
+    </div>
+
+    <form id="register-form" class="register-form">
+        <div class="form-row">
+            <label for="first-name">Prénom</label>
+            <input type="text" id="first-name" name="first_name" required>
+        </div>
+
+        <div class="form-row">
+            <label for="last-name">Nom</label>
+            <input type="text" id="last-name" name="last_name" required>
+        </div>
+
+        <div class="form-row">
+            <label for="email">Adresse e-mail</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-row">
+            <label for="password">Mot de passe</label>
+            <input type="password" id="password" name="password" minlength="8" required>
+            <small>Le mot de passe doit contenir au moins 8 caractères.</small>
+        </div>
+
+        <button type="submit" class="btn-primary">Créer mon compte</button>
+
+        <p id="register-message" class="form-message" aria-live="polite"></p>
+    </form>
+</section>
+<!-- US01-REGISTER-END -->
+
+</main>
 
     <footer class="site-footer">
         <p>
