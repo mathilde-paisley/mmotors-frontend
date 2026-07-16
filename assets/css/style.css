@@ -194,3 +194,68 @@ body {
     color: #b00020;
 }
 /* US01-REGISTER-CSS-END */
+/* Section login US02 */
+.login-section {
+    background-color: var(--color-bg-main);
+}
+
+.login-form {
+    max-width: 420px;
+    margin: 32px auto;
+    padding: 24px;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.form-group input:focus {
+    outline: 2px solid var(--color-gold);
+    border-color: var(--color-primary);
+}
+
+.login-message {
+    min-height: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.client-area {
+    max-width: 420px;
+    margin: 24px auto 0;
+    padding: 20px;
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-inverted);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.login-message.success {
+    color: #1B5E20;
+}
+
+.login-message.error {
+    color: var(--color-purchase);
+}
