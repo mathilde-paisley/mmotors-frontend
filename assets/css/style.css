@@ -131,3 +131,66 @@ body {
         font-size: 2rem;
     }
 }
+
+/* US01-REGISTER-CSS-START */
+.register-section {
+    padding: 3rem 1.5rem;
+    background: #f7f7f7;
+}
+
+.register-section .section-header {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.register-form {
+    max-width: 520px;
+    margin: 2rem auto 0;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-row label {
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+}
+
+.form-row input {
+    padding: 0.75rem;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.form-row input:focus {
+    outline: 2px solid #222222;
+    outline-offset: 2px;
+}
+
+.form-row small {
+    margin-top: 0.25rem;
+    color: #666666;
+}
+
+.form-message {
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.form-message.success {
+    color: #1f7a3a;
+}
+
+.form-message.error {
+    color: #b00020;
+}
+/* US01-REGISTER-CSS-END */
